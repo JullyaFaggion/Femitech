@@ -1,0 +1,13 @@
+body{
+  background-color: lemonchiffon;
+  color: mediumvioletred;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  text-align: vertical;
+  width: 150px;
+  right: 150px;
+  margin: 60px;
+}
+h1{
+  color: mediumvioletred;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}

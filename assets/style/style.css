@@ -5,20 +5,19 @@ body {
 }
 
 .barrinha {
-    background-color: #043F70;
+    background-color: #962e40;
     height: 8px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    display: flex;
     position: fixed;
     right: 0;
     left: 0;
     top: 0;
     padding: 20px 70px 20px 30px;
-    background-color: #043F70;
+    background-color: #962e40;
 }
 
 .links-header {       
@@ -41,7 +40,7 @@ header {
 }
 
 .banner {
-    background-color: #338BD9;
+    background-color: #d98282;
     display: flex;
     justify-content: space-around;
     padding: 20px;
@@ -79,73 +78,153 @@ header {
     font-weight: bold;
     height: 30px;
     width: 200px;
-    border: 2px solid #043F70;
-    background-color: #043F70;
+    border: 2px solid #962e40;
+    background-color: #962e40;
     cursor: pointer;
 }
 
 .titulo-banner button a {
-    color: #338BD9;
+    color: white;
     font-size: 15pt;
     text-decoration: none;
+}
+
+.sobre {
+    display: flex;
+    margin-top: 50px;
+}
+
+.texto-sobre {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagem-sobre img {
+    margin-left: 20px;
+}
+
+.texto-sobre h2 {
+    color: #962e40;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.texto-sobre p {
+    font-size: 14pt;
+    text-align: center;
 }
 
 main {
     display: flex;
     margin-top: 50px;
     justify-content: space-around;
+    background-color: #d98282;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 20px;
 }
 
 main h3 {
-    font-size: 15pt;
+    font-size: 18pt;
     font-weight: bold;
-    color: #043F70;
+    color: #962e40;
     text-align: center;
 }
 
-main img {
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    overflow: hidden;
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.cursos {
-    position: relative;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 90%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #043F70;
-}
-
-.cursos:hover .overlay {
-    opacity: 1;
-    border-radius: 50%;
-}
-
-.text-overlay {
+.cursos p {
+    font-size: 15pt;
     color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    margin-right: 15px;
     text-align: center;
 }
+
+.oficinas p {
+    font-size: 15pt;
+    color: white;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.coach p {
+    font-size: 15pt;
+    color: white;
+    text-align: center;
+}
+
+.equipe {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.equipe-baixo {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.equipe img {
+    margin-top: 80px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.equipe-baixo img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.equipe h4{
+    color: #962e40;
+    font-size: 15pt;
+    text-align: center;
+    font-weight: bold;
+}
+
+.equipe-baixo h4{
+    color: #962e40;
+    font-size: 15pt;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #962e40;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.logo-footer p{
+    font-size: 20pt;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.contatos a{
+    padding: 20px;
+}
+
+.contatos img {
+    width: 30px;
+    height: 30px;
+}
+
+
 
 
 
