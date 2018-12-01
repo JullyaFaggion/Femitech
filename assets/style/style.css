@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.barrinha {
+    background-color: #043F70;
+    height: 8px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding: 20px 70px 20px 30px;
+    background-color: #043F70;
+}
+
+.links-header {       
+    position: relative;
+}
+
+.links-header ul{
+    list-style: none; 
+}
+
+.links-header a{
+    color: white;
+    text-decoration: none;
+    font-size: 14pt;
+    padding-right: 100px;
+}
+
+.links-header a:last-child {
+    font-weight: bold;
+}
+
+.banner {
+    background-color: #338BD9;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    padding-left: 90px;
+    height: 500px;
+}
+
+.titulo-banner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    flex-wrap: wrap;
+}
+
+.titulo-banner h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 30pt;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.titulo-banner p {
+    color: white;
+    font-size: 15pt;
+    padding-left: 45px;
+    padding-bottom: 45px;
+    width: 300px;
+}
+
+.titulo-banner button {   
+    border-radius: 10px;
+    font-weight: bold;
+    height: 30px;
+    width: 200px;
+    border: 2px solid #043F70;
+    background-color: #043F70;
+    cursor: pointer;
+}
+
+.titulo-banner button a {
+    color: #338BD9;
+    font-size: 15pt;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+main h3 {
+    font-size: 15pt;
+    font-weight: bold;
+    color: #043F70;
+    text-align: center;
+}
+
+main img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.cursos {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 90%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #043F70;
+}
+
+.cursos:hover .overlay {
+    opacity: 1;
+    border-radius: 50%;
+}
+
+.text-overlay {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+/* 
+#043F70
+#338BD9
+#88C8F1
