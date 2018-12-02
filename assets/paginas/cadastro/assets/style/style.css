@@ -1,0 +1,144 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  padding: 30px 70px 30px 30px;
+  background-color: black;
+}
+
+.links-header {       
+  position: relative;
+}
+
+.links-header ul{
+  list-style: none; 
+}
+
+.links-header a{
+  color: #D31C1C;
+  text-decoration: none;
+  font-size: 14pt;
+  padding-right: 100px;
+}
+
+.links-header a:last-child {
+  font-weight: bold;
+}
+
+.primeira-divisao {  
+  width: 50vw;
+  position: fixed;
+  overflow: hidden;
+  z-index: 999;
+  margin-top: 62px;
+  padding-top: 20px;
+  height: 70vw;
+  padding-left: 100px;
+}
+
+.primeira-divisao img {
+  width: 40vw;
+  height: 42vw;
+}
+
+.segunda-divisao {
+  width: 50vw;
+  padding-left: 50vw;
+  padding-top: 100px;
+}
+
+.titulo-segunda-divisao h1{
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.nome, .endereco-estado, .dados-basicos, .endereco-bairro, .endereco-rua, .complemento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.input-nome {
+  width: 450px;
+  height: 30px;
+  border: 2px solid #D31C1C;
+  border-radius: 15px;
+}
+
+.input {
+  width: 250px;
+  height: 30px;
+  margin-right: 20px;
+  border: 2px solid #D31C1C;
+  border-radius: 15px;
+}
+
+.input-complemento {
+  width: 450px;
+  height: 100px;
+  border: 2px solid #D31C1C;
+  border-radius: 15px;
+}
+
+.genero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.input-radio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+input::placeholder {
+  font-size: 10pt;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: absolute;
+  z-index: 1000;
+  width: 100vw;
+}
+
+.logo-footer p{
+  font-size: 20pt;
+  color: #D31C1C;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.contatos a{
+  padding: 20px;
+}
+
+.contatos img {
+  width: 30px;
+  height: 30px;
+}
